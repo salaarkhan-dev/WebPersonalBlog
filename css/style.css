@@ -1,0 +1,113 @@
+/* ----------------------------------
+
+
+Author: salaarkhan
+
+Main Font    : Raleway
+Background   : #16161a
+Headline     : #fffffe
+Paragraph    : #94a1b2
+Button       : #7f5af0
+Button-Text  : #fffffe
+Links        : #7f5af0
+
+
+-------------------------------------  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #16161a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #fffffe;
+}
+
+a {
+    color: #7f5af0;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #94a1b2;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.logo {
+    margin-top: 35px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    position: relative;
+    bottom: 39px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffffe;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 35px;
+}
+
+.hero-text {
+    position: relative;
+    top: 150px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero-text h3 {
+    display: block;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    max-width: 580px;
+    line-height: 30px;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.credit img {
+    height: 1em;
+    width: 1em;
+    vertical-align: -0.1em;
+}
