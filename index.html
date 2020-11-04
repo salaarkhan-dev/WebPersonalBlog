@@ -9,59 +9,76 @@
     <!-- StyleSheets -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
-    <!-- Header Section Start -->
-    <section id="header">
-        <div class="container">
-            <img class="logo" src="img/logo/logo-light.png" alt="logo" />
-            <div class="header-items">
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+    <!-- Navbar Start -->
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="logo">Salaar.</a>
             </div>
-        </div>
-    </section>
-    <!-- Header Section End -->
+            <div id="nav-menu" class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
 
-    <!-- Home Section Start -->
-    <section id="home">
-        <div class="container">
-            <img class="hero" src="img/hero.png" alt="hero" />
+                    <li class="nav-item dropdown">
+                        <a href="#work" class="nav-link dropdown-link">Work <i
+                                class='bx bxs-chevron-down dropdown-icon'></i></a>
 
-            <div class="hero-text">
-                <h1>Hi, I am Salaar</h1>
-                <h3>Welcome to my portfolio!</h3>
-                <p>
-                    My name is Salaar Khan, I am an ethical hacker, a data scientist, and a free lancer. I just love hacking and breaking the rules, but don’t get me wrong as I said I am an ethical hacker.
-                    <br />
-                    <br /> A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
-                </p>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#" class="nav-link">Machine Learning</a></li>
+                            <li class="dropdown-item"><a href="#" class="nav-link">Neural Network</a></li>
+                            <li class="dropdown-item"><a href="#" class="nav-link">Data Science</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <!-- Home Section End -->
 
-    <footer>
-        <div class="credit">
-            <p>
-                © Created with
-                <img alt="❤️" src="https://twemoji.maxcdn.com/2/72x72/2764.png" /> by
-                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/salaar.khan.7927408/">
-          Salaar Khan</a>
-                <a href="#"></a>
-            </p>
-        </div>
-    </footer>
+            <div id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Main Content Start -->
+    <div id="main">
+        <!-- Home Start -->
+        <section id="home" class="bd-grid">
+            <div class="home-main">
+                <h1 class="home-title">
+                    Hi,<br>I'am <span class="name">Salaar</span><br>Data Scientist
+                </h1>
+                <a href="#" class="btn">Contact</a>
+            </div>
+            <div class="home-social">
+                <a href="" target="__blank" class="home-social-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/salaar._.khan/" target="__blank" class="home-social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/salaarkhan-dev" target="__blank" class="home-social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="mailto:salaarkhan311@gmail.com" target="__blank" class="home-social-icon"><i
+                        class='bx bx-mail-send'></i></a>
+            </div>
+            <div class="home-image">
+                <img src="/img/hero.svg" alt="Image">
+            </div>
+        </section>
+        <!-- Home End -->
+    </div>
+    <!-- Main Content End -->
+
+
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
