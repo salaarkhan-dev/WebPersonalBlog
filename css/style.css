@@ -170,7 +170,7 @@ img {
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 40%;
+        width: 50%;
         height: 100%;
         padding: 2rem;
         background-color: var(--secondary-color);
