@@ -76,6 +76,7 @@ body {
     font-size: var(--normal-font);
     color: var(--secondary-color);
     line-height: 1.6;
+    overflow: hidden;
 }
 
 ul {
@@ -372,5 +373,29 @@ img {
         right: 65px;
         bottom: 5px;
         width: 600px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .home-image img {
+        position: absolute;
+        right: 65px;
+        bottom: 5px;
+        width: 350px;
+    }
+    body {
+        overflow: hidden;
+    }
+    .home-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .home-social-icon {
+        width: max-content;
+        margin-right: var(--mb-2);
+        margin-bottom: 6rem;
+        font-size: 1.5rem;
+        color: var(--secondary-color);
     }
 }
