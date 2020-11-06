@@ -295,11 +295,11 @@ img {
     color: var(--primary-color);
 }
 
-.home-image {
+.home-image img {
     position: absolute;
     right: 25px;
     bottom: 5px;
-    width: 500px;
+    width: 550px;
 }
 
 .home-main a.btn {
@@ -327,7 +327,7 @@ img {
 
 /* Media Queries */
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1050px) {
     .nav {
         height: calc(var(--header-height) + 1rem);
     }
@@ -367,10 +367,16 @@ img {
     .dropdown-item {
         margin: .9rem;
     }
-    .home-image {
+    .home-image img {
         position: absolute;
         right: 65px;
         bottom: 5px;
-        width: 700px;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 636px) {
+    .bd-grid {
+        grid-template-columns: 1fr;
     }
 }
