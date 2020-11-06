@@ -299,7 +299,7 @@ img {
     position: absolute;
     right: 25px;
     bottom: 5px;
-    width: 550px;
+    width: 450px;
 }
 
 .home-main a.btn {
@@ -372,11 +372,5 @@ img {
         right: 65px;
         bottom: 5px;
         width: 600px;
-    }
-}
-
-@media screen and (min-width: 636px) {
-    .bd-grid {
-        grid-template-columns: 1fr;
     }
 }
