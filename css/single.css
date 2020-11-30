@@ -1,0 +1,75 @@
+.default-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.blog-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.blog-area .item {
+  box-shadow: 0 0 10px #cccccc;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.blog-area .item .thumb img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: auto;
+}
+.thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.date {
+  position: absolute;
+  left: 30px;
+  bottom: -30px;
+  text-align: center;
+  background: #ffffff;
+  padding: 15px 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 27px;
+  box-shadow: 0 0 10px #cccccc;
+  border-radius: 5px;
+}
+.info > ul {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  list-style: circle;
+}
+
+.info h3 {
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.item blockquote {
+  background: transparent;
+  padding: 0;
+  padding-left: 0px;
+  position: relative;
+  z-index: 1;
+  border: none;
+  font-size: 20px;
+  padding-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.item blockquote::after {
+  position: absolute;
+  left: 0;
+  content: "\e67f";
+  font-family: "themify";
+  color: #437eeb;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
