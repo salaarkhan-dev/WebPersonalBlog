@@ -522,6 +522,7 @@ img {
 .footer-title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  color: var(--background-color);
 }
 .footer-social {
   margin-bottom: var(--mb-4);
